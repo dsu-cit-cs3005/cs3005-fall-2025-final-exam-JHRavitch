@@ -69,6 +69,7 @@ public:
     Robot_Flame_e_o() : RobotBase(2, 5, flamethrower) 
     {
         std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed for random movement
+        m_name = "Flame-e-o"; m_character = 'E';
     }
 
     // Set the radar direction for scanning
